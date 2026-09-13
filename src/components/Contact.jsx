@@ -26,8 +26,8 @@ function Contact() {
           {[
             { icon: <FaEnvelope />, label: 'Email', value: 'nimraabdul122@gmail.com', color: 'text-purple-400' },
             { icon: <FaPhone />, label: 'Phone', value: '03296106212', color: 'text-blue-400' },
-            { icon: <FaLinkedin />, label: 'LinkedIn', value: 'nimra-abdul-kareewww.linkedin.com/in/nimra-abdul-kareem-01ask123', color: 'text-cyan-400' },
-            { icon: <FaGithub />, label: 'GitHub', value: 'nimraabdul122-blip', color: 'text-pink-400' },
+            { icon: <FaLinkedin />, label: 'LinkedIn', value: 'https:www.linkedin.com/in/nimra-kareem-dev', color: 'text-cyan-400' },
+            { icon: <FaGithub />, label: 'GitHub', value: 'https://github.com/nimraabdul122-blip', color: 'text-pink-400' },
           ].map((item, index) => (
             <motion.div
               key={index}
